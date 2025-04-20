@@ -1,0 +1,58 @@
+# === Build Artifacts ===
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.lo
+*.la
+*.exe
+*.out
+*.app
+*.bin
+
+# === Binaries and build output ===
+/build/
+/dist/
+/bin/
+/lib/
+/app
+/test_app
+
+# === CMake ===
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+install_manifest.txt
+
+# === VS Code / CLion / IDEs ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === Backup & Temp Files ===
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === Conan / Vcpkg (C++ Package Managers) ===
+conan.lock
+conanbuildinfo.*
+CMakeUserPresets.json
+vcpkg_installed/
+vcpkg-*.*.json
+
+# === Generated Testing Output ===
+Testing/
+test_output/
